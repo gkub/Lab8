@@ -69,8 +69,7 @@ public class CustomList extends ArrayAdapter<City> {
      * @return
      */
     public boolean hasCity(City city){
-        return false; // no clue what to return here to intentionally fail the test...
-        //return cities.contains(city);
+        return cities.contains(city);
     }
 //    public void deleteCity(City city){
 //        cities.remove(city);
