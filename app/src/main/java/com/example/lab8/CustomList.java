@@ -62,4 +62,17 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+    /**
+     * this checks if a city is contained in the list
+     * for the first phase, it will
+     * @param city
+     * @return
+     */
+    public boolean hasCity(City city){
+        return false; // no clue what to return here to intentionally fail the test...
+        //return cities.contains(city);
+    }
+//    public void deleteCity(City city){
+//        cities.remove(city);
+//    }
 }
